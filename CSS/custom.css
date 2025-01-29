@@ -1,0 +1,198 @@
+html,
+body {
+  /* background-image: url('https://www.course5i.com/wp-content/themes/farben-basic/images/Whitepaper.jpg'); */
+  overflow: hidden;
+  background-color: #353535;
+}
+
+/* .container-fluid{
+padding-top: 4%;
+} */
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  margin: 15px;
+  width: 90%;
+}
+
+.aspect {
+  padding-bottom: 59%;
+  position: relative;
+  width: 100%;
+}
+
+.aspect-inner {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#previousPage {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background-color: transparent;
+  margin: 0;
+  border: unset;
+  color: #f9f9f9;
+}
+
+#nextPage {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-color: transparent;
+  margin: 0;
+  border: unset;
+  color: #f9f9f9;
+}
+
+.flipbook {
+  height: 100%;
+  transition: margin-left 0.25s ease-out;
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.flipbook .page {
+  height: 100%;
+  width: 100% ;
+}
+
+.flipbook .page img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+#flipbook .shadow,
+#flipbook.shadow {
+  -webkit-box-shadow: 0 4px 10px #666;
+  -moz-box-shadow: 0 4px 10px #666;
+  -ms-box-shadow: 0 4px 10px #666;
+  -o-box-shadow: 0 4px 10px #666;
+  box-shadow: 0 4px 10px #666;
+}
+
+#flipbook .page-wrapper {
+  -webkit-perspective: 2000px;
+  -moz-perspective: 2000px;
+  -ms-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.hard {
+  background-color: #cdcdcd;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  color: #cdcdcd;
+}
+
+/*=====================circle Button============*/
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+
+.btn-circle.btn-md {
+  width: 44px;
+  height: 44px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*==============================================*/
+/*over image*/
+.overimage .btn {
+  position: relative;
+  bottom: 17%;
+  /* margin: 0 auto; */
+  margin-left: 13%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #111;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+}
+
+.overimage .btn:hover {
+  background-color: black;
+}
+
+/* social media icons */
+.fab {
+  color: #f9f9f9;
+  font-size: 15px;
+padding: 0 6px;
+}
+/* follow us */
+.FollowUs{
+  font-size: 12px;
+color: #f9f9f9;
+text-decoration: none;
+font-family: arial;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    height: 65%;
+  }
+
+  #previousPage {
+    top: 30%;
+    margin-right: -56%;
+  }
+
+  #nextPage {
+    top: 30%;
+    margin-left: -56%;
+  }
+
+  .overimage .btn {
+    position: relative;
+    bottom: 17%;
+    /* margin: 0 auto; */
+    margin-left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #111;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .wrapper {
+    margin: 33px;
+  }
+}
